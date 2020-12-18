@@ -8,7 +8,7 @@ class Mango{
       }
       this.body = Bodies.circle(x, y, radius, options);
       this.radius = radius
-      this.image = loadImage("images/mango.png");
+      this.image = loadImage("mango.png");
       World.add(world, this.body);
     }
     display(){
